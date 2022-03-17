@@ -1,0 +1,186 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #9bcffe
+}
+
+.nav {
+    background-color: #09355b;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    color: #cfee09;
+    font-weight: 200;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.navlist-item {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.navlist-item:hover > *{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.about-section {
+    background-color: #9bcffe
+}
+
+.about-banner, 
+.technologies-banner,
+.contact-banner {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 100;
+    font-size: 24px;
+    background-color: #9bcffe;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    position: relative;
+}
+
+.personal-photo {
+    border-radius: 25px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0px;
+    color: #cfee09;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-caption:hover {
+    opacity: 1;
+}
+
+.about-section-text {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text {
+    color: #09355b;
+    width: 50%;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+h1 {
+    font-weight: 100;
+    color: #09355b;
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-weight: 100;
+    color: #09355b;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #cfe009;
+}
+
+a:visited {
+    color: #cfee09;
+}
+
+a:hover {
+    background: #cfee09;
+    color:#09355b;
+}
+
+.technologies-container {
+    display: flex;
+    justify-content: center;
+}
+
+.indv-tech {
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    padding-top: 50px;
+    background-color: #09355b;
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.tech-logo {
+    height: 100px;
+}
+
+.tech-name {
+    font-weight: 200;
+    color: #cfee09;
+    text-align: center;
+}
+
+.indv-tech:hover,
+.indv-tech:hover > * {
+    background-color: #cfe009;
+    color: #09355b;
+}
+
+.input-name,
+.input-email,
+.input-message {
+    background-color: #09355b;
+    color: #cfe009;
+}
+
+::placeholder {
+    color:#cfe009
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-blurb {
+    color: #09355b;
+    width: 50%;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
