@@ -3,6 +3,33 @@ body {
     background-color: #9bcffe
 }
 
+h1 {
+    font-weight: 100;
+    color: #09355b;
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-weight: 100;
+    color: #09355b;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #cfe009;
+}
+
+a:visited {
+    color: #cfee09;
+}
+
+a:hover {
+    background: #cfee09;
+    color:#09355b;
+}
+
 .nav {
     background-color: #09355b;
     width: 100%;
@@ -45,7 +72,8 @@ body {
 .about-banner, 
 .technologies-banner,
 .contact-banner,
-.project-banner {
+.project-banner,
+.interests-banner {
     margin: 20px 0px;
     display: flex;
     justify-content: center;
@@ -56,10 +84,7 @@ body {
 }
 
 
-/* This CSS is mostly specific to the Index page */
-.about-section {
-    background-color: #9bcffe
-}
+/* --------------------------- This CSS is mostly specific to the Index page -------------------------------------------- */
 
 .about-image {
     display: flex;
@@ -97,33 +122,6 @@ body {
     width: 50%;
     font-weight: 200;
     font-size: 25px;
-}
-
-h1 {
-    font-weight: 100;
-    color: #09355b;
-    font-size: 70px;
-    margin: 20px 0px;
-}
-
-h2 {
-    font-weight: 100;
-    color: #09355b;
-    font-size: 50px;
-}
-
-a {
-    text-decoration: none;
-    color: #cfe009;
-}
-
-a:visited {
-    color: #cfee09;
-}
-
-a:hover {
-    background: #cfee09;
-    color:#09355b;
 }
 
 .technologies-container {
@@ -172,6 +170,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .contact-blurb {
@@ -199,11 +198,25 @@ a:hover {
 }
 
 .input-message {
-    height: 50px;
+    height: 70px;
     text-align: start;
 }
 
-/* This CSS is specific to the Projects page */
+.submit-button-container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+
+}
+.submit-button {
+    color: #cfe009;
+    margin-right: 6px;
+    background-color: #09355b;
+    padding: 4px 6px;
+}
+
+/* ----------------------------This CSS is specific to the Projects page ------------------------------------------- */
 
 .project-banner {
     display: flex;
@@ -271,6 +284,10 @@ a:hover {
     margin-right: 10px;
 }
 
+.project-link {
+    font-size: 20px;
+}
+
 .project-row {
     display: flex;
     flex-direction: row;
@@ -292,3 +309,5 @@ a:hover {
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
+
+/* ------------------------------- This CSS is specific to the Interests page ----------------------------------------- */
