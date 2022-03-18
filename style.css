@@ -335,10 +335,6 @@ input::placeholder {
     font-weight: 300;
 }
 
-.interests-container {
-    padding-top: 50px;
-}
-
 .interest-list-item {
     display: flex;
     flex-direction: column;
