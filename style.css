@@ -154,17 +154,6 @@ a:hover {
     color: #09355b;
 }
 
-.input-name,
-.input-email,
-.input-message {
-    background-color: #09355b;
-    color: #cfe009;
-}
-
-::placeholder {
-    color:#cfe009
-}
-
 .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -190,8 +179,10 @@ a:hover {
 .input-name,
 .input-email,
 .input-message {
+    background-color: #09355b;
+    color: #cfe009;
     width: 100%;
-    padding: 8px 0px;
+    padding: 8px 3px;
     margin: 5px;
     border: none;
 }
@@ -200,6 +191,24 @@ a:hover {
     height: 70px;
     text-align: start;
 }
+
+input {
+    font-family: 'Kanit', sans-serif;
+}
+
+textarea {
+    font-family: 'Kanit', sans-serif;
+}
+
+::placeholder {
+    color:#cfe009
+}
+
+input::placeholder {
+    font-family: 'Kanit', sans-serif;
+}
+
+
 
 .submit-button-container {
     width: 100%;
