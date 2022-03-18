@@ -83,7 +83,6 @@ a:hover {
     background-color: #9bcffe;
 }
 
-
 /* --------------------------- This CSS is mostly specific to the Index page -------------------------------------------- */
 
 .about-image {
@@ -311,3 +310,46 @@ a:hover {
 }
 
 /* ------------------------------- This CSS is specific to the Interests page ----------------------------------------- */
+
+.interests-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.interests-blurb {
+    font-weight: 300;
+}
+
+.interests-container {
+    padding-top: 50px;
+}
+
+.interest-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests-list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.indv-interest {
+    font-size: 50px;
+    font-weight: 200;
+    padding: 0px 50px;
+    border-bottom: 3px solid #09355b;
+}
+
+.interest-image-container{
+    flex-direction: row;
+}
+
+.interest-image {
+    width: 30%;
+    padding: 5px;
+}
